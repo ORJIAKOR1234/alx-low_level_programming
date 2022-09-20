@@ -7,7 +7,11 @@
  *
  */
 
-void reset_to_98(int *n)
+int main (void)	
 {
-          *n =98;
+          int n;
+	  n = 402;
+void reset_to_98(int *n)
+	*n = 98;
+
 }
